@@ -7,9 +7,9 @@
             <!-- 配置数据库连接信息 -->
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.jdbc.Driver" />
-                <property name="url" value="jdbc:mysql://218.244.133.31:3306/crawler_demo" />
+                <property name="url" value="jdbc:mysql://localhost:3306/crawler_demo" />
                 <property name="username" value="root" />
-                <property name="password" value="LabHome2015" />
+                <property name="password" value="root" />
             </dataSource>
         </environment>
     </environments>
